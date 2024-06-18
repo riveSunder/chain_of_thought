@@ -36,6 +36,7 @@ if __name__ == "__main__":
   question = args.question
   checkpoint_index = args.checkpoint
   example_type = args.example_type
+  verbose = False
 
   checkpoints = [\
       "HuggingFaceH4/zephyr-7b-gemma-v0.1",\
@@ -49,21 +50,34 @@ if __name__ == "__main__":
   query_response = True
 
   examples_list = []
+  example_types = []
 
   if example_type == 1 or example_type == 0:
     examples_list.append("")
+    example_types.append(1)
   if example_type == 2 or example_type == 0:
     with open("few_shot_examples.txt", "r") as f:
       examples_list.append(f.read())
+    example_types.append(2)
   if example_type == 3 or example_type == 0:
     with open("cot_examples.txt", "r") as f:
       examples_list.append(f.read())
+    example_types.append(3)
   if example_type == 4 or example_type == 0:
     with open("cot_step_by_step_examples.txt", "r") as f:
       examples_list.append(f.read())
+    example_types.append(4)
   if example_type == 5 or example_type == 0:
     with open("step_by_step_examples.txt", "r") as f:
       examples_list.append(f.read())
+    example_types.append(5)
+
+  example_type_dict = {1: "zero-shot",\
+      2: "few-shot",\
+      3: "chain-of-thought",\
+      4: "chain-of-thought + 'Let's think step-by-step'",\
+      5: "few-shot + 'Let's think step-by-step'"\
+      }
 
   while query_response:
 
@@ -71,15 +85,21 @@ if __name__ == "__main__":
     # queries include questin poised as standard zero-shot/few-shot, with chain-of-though examples, 
     # chain-of-thought plus 'Let's think step-by-step', and 'let's think step-by-step:' alone
 
-    for examples in examples_list:
+    for example_type, examples in zip(example_types, examples_list):
+
+      if example_type == 5 or example_type == 4:
+        answer_prepend = "Let's think step-by-step: "
+      else:
+        answer_prepend = ""
+
       queries = [\
-          {"role": "user", "content": f"{examples} Q: {question}\nA: "},\
+          {"role": "user", "content": f"{examples} Q: {question}\nA: {answer_prepend}"},\
           ]
         
       t0 = time.time(); 
       outputs = pipe(\
           queries,\
-          max_new_tokens=64,\
+          max_new_tokens=128,\
           do_sample=True,\
           temperature=0.7,\
           top_k=50,\
@@ -88,11 +108,20 @@ if __name__ == "__main__":
           )
       t1 = time.time(); 
 
-      msg = f"generation with {checkpoint} on {pipe.device} w/ {pipe.torch_dtype} in {t1-t0:.3f} seconds\n"
 
-      msg += f"response:\n\n\t\t {outputs[0]['generated_text'][-1]['content']}"
+      msg = f"\n\n\tQuestion:\n\n{question}\n"
+    
+      if verbose: 
+        msg += f"\ngeneration with {checkpoint} on {pipe.device} w/ {pipe.torch_dtype} in {t1-t0:.3f} seconds\n"
+        msg += f"\n\tPrompt:\n {outputs[0]['generated_text'][0]['content']}"
+
+      msg += f"\n\t{example_type_dict[example_type]} Response:\n\n"
+      msg += f"{outputs[0]['generated_text'][-1]['content']}"
 
       print(msg)
+
+      #print("\n", outputs[0], "\n")
+
 
     question = input("Enter another question (leave blank to end session)")
     if question == "":
