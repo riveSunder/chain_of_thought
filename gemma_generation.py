@@ -25,6 +25,7 @@ if __name__ == "__main__":
       "4: Chain-of-thought examples plus 'Let's think step-by-step: '"
       "5: few-shot + 'Let's think step-by-step: ' appended after 'A: '"
       "6: zero-shot + 'Let's think step-by-step: ' appended after 'A: '"
+      "7: zero-shot + 'The answer is: ' appended after 'A: '"
       "0: use all examples"\
       )
   parser.add_argument("-q", "--question", type=str, \
@@ -75,13 +76,17 @@ if __name__ == "__main__":
   if example_type == 6 or example_type == 0:
     examples_list.append("")
     example_types.append(6)
+  if example_type == 7 or example_type == 0:
+    examples_list.append("Respond with only the answer using as short an answer as possible.")
+    example_types.append(7)
 
   example_type_dict = {1: "zero-shot",\
       2: "few-shot",\
       3: "chain-of-thought",\
       4: "chain-of-thought + 'Let's think step-by-step'",\
-      5: "few-shot + 'Let's think step-by-step'"\
-      6: "zero-shot + 'Let's think step-by-step'"\
+      5: "few-shot + 'Let's think step-by-step'",\
+      6: "zero-shot + 'Let's think step-by-step'",\
+      7: "zero-shot + 'The answer is:'"\
       }
 
   while query_response:
@@ -94,6 +99,8 @@ if __name__ == "__main__":
 
       if example_type == 4 or example_type == 5 or example_type == 6:
         answer_prepend = "Let's think step-by-step: "
+      elif example_type == 7:
+        answer_prepend = "The answer is: "
       else:
         answer_prepend = ""
 
@@ -104,7 +111,7 @@ if __name__ == "__main__":
       t0 = time.time(); 
       outputs = pipe(\
           queries,\
-          max_new_tokens=128,\
+          max_new_tokens=512,\
           do_sample=True,\
           temperature=0.7,\
           top_k=50,\
