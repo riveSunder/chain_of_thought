@@ -28,6 +28,9 @@ if __name__ == "__main__":
       "7: zero-shot + 'The answer is: ' appended after 'A: '"
       "0: use all examples"\
       )
+  parser.add_argument("-l", "--log_path", type=str, \
+      default="",\
+      help="filepath to log results to (leave blank to avoid logging)")
   parser.add_argument("-n", "--no_loop", action="store_false", \
       default=True,\
       help="")
@@ -41,7 +44,9 @@ if __name__ == "__main__":
   question = args.question
   checkpoint_index = args.checkpoint
   example_type = args.example_type
-  query_response = (args.no_loop) + 1
+  query_response = 1 * args.no_loop + 1
+  do_log = args.log_path != ""
+  
   verbose = False
 
   checkpoints = [\
@@ -94,6 +99,9 @@ if __name__ == "__main__":
 
   while query_response:
 
+    if do_log:
+      log_results = ""
+
     query_response -= 1
     # queries include questin poised as standard zero-shot/few-shot, with chain-of-though examples, 
     # chain-of-thought plus 'Let's think step-by-step', and 'let's think step-by-step:' alone
@@ -132,6 +140,19 @@ if __name__ == "__main__":
 
       msg += f"\n\t{example_type_dict[example_type]} Response:\n\n"
       msg += f"{outputs[0]['generated_text'][-1]['content']}"
+      
+      if do_log:
+        log_results = f"\n\n\tQuestion:\n\n{question}\n"
+      
+        log_results += f"\ngeneration with {checkpoint} on {pipe.device} w/ {pipe.torch_dtype} in {t1-t0:.3f} seconds\n"
+        log_results += f"\n\tPrompt:\n {outputs[0]['generated_text'][0]['content']}"
+
+        log_results += f"\n\t{example_type_dict[example_type]} Response:\n\n"
+        log_results += f"{outputs[0]['generated_text'][-1]['content']}"
+
+        with open(args.log_path, "a") as f:
+
+          f.write(log_results)
 
       print(msg)
 
@@ -141,6 +162,7 @@ if __name__ == "__main__":
     if query_response:
       question = input("Enter another question (leave blank to end session)")
       if question == "":
-        pass
+        query_response = False
       else:
-        query_response = True
+        query_response = 2
+
