@@ -28,6 +28,9 @@ if __name__ == "__main__":
       "7: zero-shot + 'The answer is: ' appended after 'A: '"
       "0: use all examples"\
       )
+  parser.add_argument("-n", "--no_loop", action="store_false", \
+      default=True,\
+      help="")
   parser.add_argument("-q", "--question", type=str, \
       default = "Roger has 5 tennis balls. He buys 2 more cans of tennis balls."\
       " Each can has 3 tennis balls. How many tennis balls does he have now?",\
@@ -38,6 +41,7 @@ if __name__ == "__main__":
   question = args.question
   checkpoint_index = args.checkpoint
   example_type = args.example_type
+  query_response = (args.no_loop) + 1
   verbose = False
 
   checkpoints = [\
@@ -49,7 +53,6 @@ if __name__ == "__main__":
 
   pipe = pipeline("text-generation", model=checkpoint, device_map="auto", torch_dtype=torch.bfloat16)
 
-  query_response = True
 
   examples_list = []
   example_types = []
@@ -91,7 +94,7 @@ if __name__ == "__main__":
 
   while query_response:
 
-    query_response = False
+    query_response -= 1
     # queries include questin poised as standard zero-shot/few-shot, with chain-of-though examples, 
     # chain-of-thought plus 'Let's think step-by-step', and 'let's think step-by-step:' alone
 
@@ -135,8 +138,9 @@ if __name__ == "__main__":
       #print("\n", outputs[0], "\n")
 
 
-    question = input("Enter another question (leave blank to end session)")
-    if question == "":
-      pass
-    else:
-      query_response = True
+    if query_response:
+      question = input("Enter another question (leave blank to end session)")
+      if question == "":
+        pass
+      else:
+        query_response = True
