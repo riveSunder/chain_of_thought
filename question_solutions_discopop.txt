@@ -1,0 +1,2082 @@
+	Question:
+
+The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.994 seconds
+
+	Prompt:
+  Q: The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+A: 
+	zero-shot Response:
+
+To find out how much the delivery cost, you need to subtract the total earnings from the remaining amount in the cash register, and then subtract the initial amount the register had in the beginning.
+
+Let's do the calculations:
+
+1. Total earnings + Initial amount = $66 + $20 = $86
+2. Total amount in the cash register after the delivery = $54
+3. Delivery cost = Total amount in the cash register - Total earnings
+4. Delivery cost = $86 - $54 = $32
+
+The delivery cost was $32.
+
+	Question:
+
+The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.031 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+A: 
+	few-shot Response:
+
+The cash register started with $20 and earned $66, so the total amount of money in the register is $20 + $66 = $86.
+
+To find out how much the delivery cost, you need to subtract the remaining amount in the register ($54) from the total amount of money in the register ($86).
+
+So, the delivery cost is 86 - 54 = 32.
+
+The answer is 32.
+
+	Question:
+
+The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.925 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+ Q: The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+A: 
+	chain-of-thought Response:
+
+A: The delivery cost $54 - 20 - 66 = $54 - 86 = -$32.
+
+This problem has an unusual result, as the answer is negative. It could indicate a mistake in the problem statement or a misunderstanding in the question. However, based on the given information, the delivery cost would be $32 more than what was available in the cash register, resulting in a negative value.
+
+	Question:
+
+The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.159 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: Let's think step-by-step: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: Let's think step-by-step: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: Let's think step-by-step: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Let's think step-by-step: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Let's think step-by-step: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Let's think step-by-step: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: Let's think step-by-step: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Let's think step-by-step: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Let's think step-by-step: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+
+ Q: The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+A: Let's think step-by-step: 
+	chain-of-thought + 'Let's think step-by-step' Response:
+
+The cash register started with $20, and the store earned $66. So the total amount of money at the end of the day should be $20 + $66 = $86.
+
+The cash register at the end of the day had $54. So the delivery cost is the difference between the total amount and the money left in the cash register:
+
+$86 - $54 = $32
+
+The delivery cost was $32.
+
+	Question:
+
+The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.195 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+A: Let's think step-by-step: 
+	few-shot + 'Let's think step-by-step' Response:
+
+The cash register started with $20 and earned $66, so the total amount in the register is $20 + $66 = $86.
+
+The manager paid for a delivery, which reduced the amount in the register to $54.
+
+To find the cost of the delivery, subtract the remaining amount in the register from the total amount:
+$86 - $54 = $32
+
+So, the delivery cost $32.
+
+Answer: The delivery cost $32.
+
+	Question:
+
+The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.307 seconds
+
+	Prompt:
+  Q: The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+A: Let's think step-by-step: 
+	zero-shot + 'Let's think step-by-step' Response:
+
+To find the cost of the delivery, you can follow these steps:
+
+1. Start with the cash register's beginning balance: $20
+2. Add the amount earned from selling ice cream: $66
+3. Subtract the remaining amount in the cash register at the end of the day: $54
+4. This difference represents the cost of the delivery.
+
+Now, let's calculate the cost of the delivery:
+
+$20 + $66 - $54
+= $46
+
+Therefore, the delivery cost $46.
+
+	Question:
+
+The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 0.241 seconds
+
+	Prompt:
+ Respond with only the answer using as short an answer as possible. Q: The cash register at the ice cream store started the day with $20. During the day, the store earned $66 selling ice cream. The manager also paid for a delivery out of the cash register. At the end of the day, the cash register had $54. How much did the delivery cost?
+A: The answer is: 
+	zero-shot + 'The answer is:' Response:
+
+The delivery cost $22.
+
+	Question:
+
+I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.981 seconds
+
+	Prompt:
+  Q: I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+A: 
+	zero-shot Response:
+
+To find out how many sheets of toilet paper have not been used, you need to subtract the total number of sheets used from the total number of sheets in the roll.
+
+Total sheets used = 12 sheets/day x 4 days = 48 sheets
+
+Total sheets in the roll = 96 sheets
+
+Sheets not used = Total sheets in the roll - Total sheets used
+= 96 - 48
+= 48
+
+48 sheets of toilet paper have not been used.
+
+	Question:
+
+I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 5.446 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+A: 
+	few-shot Response:
+
+Q: I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+
+A: To solve this problem, first, we need to calculate the total number of sheets used in 4 days. Since each day 12 sheets are used, we can multiply this by 4.
+
+Total sheets used = 12 sheets/day \* 4 days = 48 sheets
+
+Now, we can find the number of sheets not used by subtracting the total sheets used from the total sheets on the roll when it was new.
+
+Sheets not used = Total sheets on the roll - Total sheets used
+Sheets not used = 96 sheets - 48 sheets = 48 sheets
+
+Therefore, there are 48 sheets of toilet paper that have not been used.
+
+	Question:
+
+I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 4.809 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+ Q: I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+A: 
+	chain-of-thought Response:
+
+A: To find out how many sheets of toilet paper have not been used, you need to determine how many sheets were used in total for the 4 days.
+
+Total sheets used in 4 days = 12 sheets/day \* 4 days = 48 sheets
+
+To find out how many sheets have not been used, you need to subtract the used sheets from the total number of sheets in a new roll.
+
+Total sheets in a new roll = 96 sheets
+
+Sheets not used = Total sheets in a new roll - Total sheets used in 4 days
+Sheets not used = 96 - 48 = 48
+
+So, 48 sheets of toilet paper have not been used. The answer is 48.
+
+	Question:
+
+I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.706 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: Let's think step-by-step: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: Let's think step-by-step: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: Let's think step-by-step: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Let's think step-by-step: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Let's think step-by-step: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Let's think step-by-step: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: Let's think step-by-step: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Let's think step-by-step: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Let's think step-by-step: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+
+ Q: I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+A: Let's think step-by-step: 
+	chain-of-thought + 'Let's think step-by-step' Response:
+
+Let's think step-by-step:
+
+1. The toilet paper roll had 96 sheets initially.
+2. 12 sheets were used each day for 4 days.
+3. To find the total number of sheets used, multiply 12 by 4: 12 \* 4 = 48.
+4. Subtract the number of used sheets from the initial number of sheets: 96 - 48 = 48.
+
+Answer: 48 sheets of toilet paper have not been used.
+
+	Question:
+
+I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.045 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+A: Let's think step-by-step: 
+	few-shot + 'Let's think step-by-step' Response:
+
+First, let's calculate how many sheets of toilet paper were used in total over the 4 days:
+
+12 sheets/day x 4 days = 48 sheets used
+
+Next, let's subtract the total number of sheets used from the original number of sheets on the roll:
+
+96 sheets (original) - 48 sheets (used) = 48 sheets not used
+
+The answer is 48 sheets of toilet paper have not been used.
+
+	Question:
+
+I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.540 seconds
+
+	Prompt:
+  Q: I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+A: Let's think step-by-step: 
+	zero-shot + 'Let's think step-by-step' Response:
+
+To find the number of sheets of toilet paper that have not been used, you can follow these steps:
+
+1. Determine the total number of sheets used in four days.
+2. Subtract the total used sheets from the original number of sheets in the roll.
+
+Step 1: Total sheets used in four days
+12 sheets/day \* 4 days = 48 sheets
+
+Step 2: Total unused sheets
+96 sheets (original) - 48 sheets (used) = 48 sheets
+
+So, there are 48 sheets of toilet paper that have not been used.
+
+	Question:
+
+I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 0.711 seconds
+
+	Prompt:
+ Respond with only the answer using as short an answer as possible. Q: I used 12 sheets of toilet paper each day for 4 days. The roll had 96 sheets when it was new. How many sheets of toilet paper have not been used?
+A: The answer is: 
+	zero-shot + 'The answer is:' Response:
+
+96 - 12 \* 4 = 96 - 48 = 48 sheets.
+
+	Question:
+
+The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 5.823 seconds
+
+	Prompt:
+  Q: The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+A: 
+	zero-shot Response:
+
+To find the number of books checked out, you need to subtract the initial number of books (23), the number of books returned (3), the number of books sent via inter-library loan (1), and the number of books still in the library (14).
+
+First, find the total number of books removed from the library:
+23 (initial books) - 3 (returned books) - 1 (inter-library loan) = 20 books
+Now, subtract the total number of books removed from the final number of books in the library:
+14 (final books) - 20 (total books removed) = -6
+
+Since the result is negative, it means there was an error in the problem statement. It appears that there was a mistake in the final count of books in the library, as it cannot be less than the number of books removed. Please double-check the problem statement and let me know if there are any corrections or additional details.
+
+	Question:
+
+The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.703 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+A: 
+	few-shot Response:
+
+To find out how many books were checked out, you need to subtract the number of books the library had at the end (14) from the total number of books (23) at the beginning, and then add the number of books returned (3).
+
+Solution:
+14 (books at the end) + 3 (books returned) + x (books checked out) = 23 (total books at the beginning)
+
+x = 23 - 14 - 3
+x = 6
+
+6 books were checked out.
+
+So, the answer is 6.
+
+	Question:
+
+The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 7.333 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+ Q: The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+A: 
+	chain-of-thought Response:
+
+To solve this problem, we need to first find out how many books were left in the library after the inter-library loan and checkout.
+
+Initial books - Books returned + Books sent out + Books checked out = Final books
+
+23 books - 3 books + 1 book (inter-library loan) + x books (books checked out) = 14 books
+
+Now, let's simplify and solve for x:
+
+19 + 1 + x = 14
+
+x = 14 - 19 - 1
+
+x = -6
+
+Since the number of books cannot be negative, we made an error in our calculations. We should subtract the final number of books from the initial books and books returned, and then add the books sent out:
+
+23 books - 3 books + 1 book = 21 books
+
+Now, let's find out how many books were checked out:
+
+21 books - 23 books + 1 book = -1 books
+
+Since the number of books cannot be negative, there might be some missing information in the problem statement. Please double-check the problem and provide the correct information.
+
+	Question:
+
+The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.987 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: Let's think step-by-step: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: Let's think step-by-step: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: Let's think step-by-step: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Let's think step-by-step: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Let's think step-by-step: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Let's think step-by-step: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: Let's think step-by-step: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Let's think step-by-step: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Let's think step-by-step: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+
+ Q: The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+A: Let's think step-by-step: 
+	chain-of-thought + 'Let's think step-by-step' Response:
+
+The school library started with 23 books and had 14 books at the end of the day after returning 3 books, sending one to another library, and checking out several others. To find out how many books were checked out, you can follow these steps:
+
+1. Calculate the number of books after returning 3: 23 - 3 = 20
+2. Subtract the number of books sent to another library: 20 - 1 = 19
+3. The remaining books are the ones checked out: 19
+
+So, 19 books were checked out.
+
+	Question:
+
+The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.570 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+A: Let's think step-by-step: 
+	few-shot + 'Let's think step-by-step' Response:
+
+To solve this problem, we need to follow these steps:
+
+1. The library started the day with 23 books.
+2. 3 books were returned, so the library now has 23 + 3 = 26 books.
+3. After sending one book to another library and checking out several others, the library now has 14 books.
+
+Let's use this information to find out how many books were checked out:
+
+26 - 14 = 12 books
+
+Therefore, the answer is 12 books were checked out.
+
+	Question:
+
+The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 8.476 seconds
+
+	Prompt:
+  Q: The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+A: Let's think step-by-step: 
+	zero-shot + 'Let's think step-by-step' Response:
+
+You can solve this problem by following these steps:
+
+1. Find out how many books were returned and the total number of books remaining after that.
+2. Subtract the inter-library loan book and add the number of books checked out.
+
+First, let's find out how many books were returned and the total number of books remaining after that.
+23 (initial books) - 3 (returned books) = 20 (remaining books)
+
+Now, we know there were 20 books remaining in the school library after 3 books were returned. We also know that 1 book was sent out via inter-library loan and some books were checked out.
+
+Let's denote the number of books checked out as "x."
+20 (remaining books) - 1 (inter-library loan book) + x (checked out books) = 14 (final books)
+
+Now, we can solve for x:
+20 + x = 14
+x = 14 - 20
+x = -6
+
+Since the number of books checked out can't be negative, we made an error. The problem statement says that there were 14 books in total after the library sent one book and checked out some. So, 14 books were already there before the inter-library loan and checkouts.
+
+In this case, no books were checked out.
+Answer: 0 books were checked out.
+
+	Question:
+
+The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 1.849 seconds
+
+	Prompt:
+ Respond with only the answer using as short an answer as possible. Q: The school library started the day with 23 books. During the day, 3 books were returned. After the library sent one book to another library via inter-library loan and checked out several others to library visitors, the school library had 14 books. How many books were checked out?
+A: The answer is: 
+	zero-shot + 'The answer is:' Response:
+
+23 - 3 - 1 + x = 14, where x is the number of books checked out.
+
+So, x = 14 - 23 + 3 - 1 = -16, which doesn't make sense. There must be an error in the given information.
+
+	Question:
+
+I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.767 seconds
+
+	Prompt:
+  Q: I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+A: 
+	zero-shot Response:
+
+To find out how many jelly beans you ate each day, you need to subtract the number of jelly beans left in the bowl from the initial number of jelly beans (61) and then divide the result by the number of days (6).
+
+Initial number of jelly beans - Jelly beans left in the bowl = Jelly beans eaten each day
+61 jelly beans - 13 jelly beans = 48 jelly beans
+
+So, you ate 48 jelly beans each day.
+
+	Question:
+
+I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.878 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+A: 
+	few-shot Response:
+
+To solve this problem, you can first find out how many jelly beans were eaten in total by subtracting the jelly beans left in the bowl (13) from the initial number of jelly beans (61). Then, you can divide the total jelly beans eaten by the number of days (6) to find the number of jelly beans eaten each day.
+
+Solution:
+61 jelly beans - 13 jelly beans = 48 jelly beans eaten in total
+48 jelly beans / 6 days = 8 jelly beans eaten each day
+
+So, you ate 8 jelly beans each day. The answer is 8.
+
+	Question:
+
+I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 4.812 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+ Q: I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+A: 
+	chain-of-thought Response:
+
+To find out how many jelly beans you ate each day, you need to first find out how many jelly beans you had in total before eating any. You initially put 61 jelly beans in the bowl 6 days ago, and now there are 13 jelly beans left.
+
+So, the total number of jelly beans you had before eating is 61 + 13 = 74.
+
+Since you ate the same number of jelly beans each day, you can divide the total number of jelly beans by the number of days to find out how many you ate each day:
+
+74 jelly beans / 6 days = 12 jelly beans
+
+You ate 12 jelly beans each day.
+
+So, the answer is 12.
+
+	Question:
+
+I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.267 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: Let's think step-by-step: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: Let's think step-by-step: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: Let's think step-by-step: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Let's think step-by-step: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Let's think step-by-step: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Let's think step-by-step: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: Let's think step-by-step: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Let's think step-by-step: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Let's think step-by-step: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+
+ Q: I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+A: Let's think step-by-step: 
+	chain-of-thought + 'Let's think step-by-step' Response:
+
+There are 61 jelly beans in the bowl, and after 6 days, 13 jelly beans are left. This means 61 - 13 = 48 jelly beans were eaten in total.
+
+To find out how many jelly beans were eaten each day, we can divide the total number of jelly beans eaten by the number of days: 48 jelly beans / 6 days = 8 jelly beans per day.
+
+So, you ate 8 jelly beans each day.
+
+	Question:
+
+I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 5.665 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+A: Let's think step-by-step: 
+	few-shot + 'Let's think step-by-step' Response:
+
+To solve the problem, you can follow these steps:
+
+1. Find out how many jelly beans were eaten in total.
+2. Subtract the current number of jelly beans from the initial amount to get the total jelly beans eaten.
+3. Divide the total jelly beans eaten by the number of days (6) to find the jelly beans eaten each day.
+
+Let's apply these steps:
+
+1. Total jelly beans eaten = Initial amount - Remaining jelly beans
+= 61 jelly beans - 13 jelly beans
+= 48 jelly beans
+
+2. Since 48 jelly beans were eaten in total, that's the number of jelly beans eaten each day.
+
+3. Jelly beans eaten each day = Total jelly beans eaten / Number of days
+= 48 jelly beans / 6 days
+= 8 jelly beans
+
+Therefore, the answer is 8. Each day, 8 jelly beans were eaten.
+
+	Question:
+
+I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.994 seconds
+
+	Prompt:
+  Q: I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+A: Let's think step-by-step: 
+	zero-shot + 'Let's think step-by-step' Response:
+
+1. You started with 61 jelly beans.
+2. After 6 days, there are 13 jelly beans left.
+3. To find out how many jelly beans you ate each day, you need to subtract the number of jelly beans left (13) from the total number of jelly beans you started with (61).
+4. So, 61 - 13 = 48 jelly beans were eaten each day.
+
+Answer: You ate 48 jelly beans each day.
+
+	Question:
+
+I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 0.298 seconds
+
+	Prompt:
+ Respond with only the answer using as short an answer as possible. Q: I put 61 jelly beans in a bowl 6 days ago. Now there are 13 jelly beans left. If I ate the same number of jelly beans each day, how many jelly beans did I eat each day?
+A: The answer is: 
+	zero-shot + 'The answer is:' Response:
+
+You ate 6 jelly beans each day.
+
+	Question:
+
+Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.177 seconds
+
+	Prompt:
+  Q: Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+A: 
+	zero-shot Response:
+
+To find out how much money Taylor has left, you need to subtract the amount she spent on sneakers and the amount she earned from her new sneakers.
+
+First, subtract $57 (spent on sneakers) from $78 (initial amount):
+78 - 57 = 21
+
+Next, subtract $5 (earned by winning the race) from the result:
+21 - 5 = 16
+
+Taylor has $16 left.
+So, the answer is:
+A: Taylor has $16 left.
+
+	Question:
+
+Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 4.441 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+A: 
+	few-shot Response:
+
+To find out how much money Taylor has left, you need to subtract the amount spent on sneakers from the initial amount Taylor had and then add the amount earned from winning the race.
+
+A: Taylor has $36 left.
+
+Solution:
+
+1. Subtract the amount spent on sneakers ($57) from the initial amount Taylor had ($78): $78 - $57 = $21
+2. Add the amount earned from winning the race ($5): $21 + $5 = $26
+3. Since Taylor still needs to spend $26, subtract that from the total amount: $26 - $26 = $0
+
+Therefore, Taylor has $26 left.
+
+	Question:
+
+Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.091 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+ Q: Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+A: 
+	chain-of-thought Response:
+
+A: Taylor had $78. Then they spent $57 on sneakers, so they now have 78 - 57 = $21 left. After earning $5 by winning a race, Taylor has 21 + 5 = $26 left. The answer is $26.
+
+	Question:
+
+Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.141 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: Let's think step-by-step: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: Let's think step-by-step: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: Let's think step-by-step: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Let's think step-by-step: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Let's think step-by-step: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Let's think step-by-step: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: Let's think step-by-step: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Let's think step-by-step: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Let's think step-by-step: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+
+ Q: Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+A: Let's think step-by-step: 
+	chain-of-thought + 'Let's think step-by-step' Response:
+
+Taylor started with $78, then spent $57 on sneakers, leaving them with $78 - $57 = $21. After winning a race and earning $5, Taylor now has $21 + $5 = $26. The answer is that Taylor has $26 left.
+
+	Question:
+
+Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.486 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+A: Let's think step-by-step: 
+	few-shot + 'Let's think step-by-step' Response:
+
+Taylor had $78.
+Taylor spent $57 on sneakers.
+Taylor earned $5 by winning a race.
+
+To find out how much money Taylor has left, you need to subtract the amount spent and the amount earned from the initial amount.
+
+First, subtract the amount spent on sneakers:
+$78 - $57 = $21
+
+Then, add the amount earned by winning the race:
+$21 + $5 = $26
+
+So, Taylor has $26 left.
+
+Answer: Taylor has $26 left.
+
+	Question:
+
+Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.251 seconds
+
+	Prompt:
+  Q: Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+A: Let's think step-by-step: 
+	zero-shot + 'Let's think step-by-step' Response:
+
+1. Taylor had $78.
+2. Taylor spent $57 on sneakers, so subtract $57 from $78: $78 - $57 = $21.
+3. Taylor earned $5 by winning a race. Add $5 to the amount remaining: $21 + $5 = $26.
+
+Taylor has $26 left.
+
+	Question:
+
+Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 0.241 seconds
+
+	Prompt:
+ Respond with only the answer using as short an answer as possible. Q: Taylor had $78. Then they spent $57 on sneakers. Then, Taylor earned $5 by winning a race in her new sneakers! How much money does Taylor have left?
+A: The answer is: 
+	zero-shot + 'The answer is:' Response:
+
+Taylor has $16 left.
+
+	Question:
+
+Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.616 seconds
+
+	Prompt:
+  Q: Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+A: 
+	zero-shot Response:
+
+To find out how many points Bob scored during the entire game, you need to calculate the total number of points he scored in the first three quarters and add the points he scored in the last quarter.
+
+First, let's calculate the total points scored in the first three quarters:
+
+3 points \* 3 quarters = 9 points
+
+Now, add the points scored in the last quarter:
+
+9 points (first 3 quarters) + 4 points (last quarter) = 13 points
+
+So, Bob scored a total of 13 points during the game.
+
+Answer: 13 points.
+
+	Question:
+
+Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.434 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+A: 
+	few-shot Response:
+
+To solve this problem, you'll need to add the points Bob scored during the first three quarters and the points he scored during the last quarter.
+
+Bob scored 3 points during each of the first 3 quarters:
+3 points \* 3 quarters = 9 points
+
+Bob scored 4 points during the last quarter:
+4 points
+
+Now, add the points from the first three quarters and the last quarter:
+9 points + 4 points = 13 points
+
+Bob scored a total of 13 points during the game.
+
+	Question:
+
+Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.996 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+ Q: Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+A: 
+	chain-of-thought Response:
+
+Bob scored 3 points for each of the first 3 quarters, which is a total of 3 \* 3 = 9 points.
+
+During the last quarter, Bob scored 4 points.
+
+To find the total points Bob scored during the game, add the points scored in the first three quarters to the points scored in the last quarter: 9 + 4 = 13.
+
+Answer: Bob scored 13 points during the game.
+
+	Question:
+
+Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 2.730 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: Let's think step-by-step: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: Let's think step-by-step: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: Let's think step-by-step: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Let's think step-by-step: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Let's think step-by-step: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Let's think step-by-step: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: Let's think step-by-step: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Let's think step-by-step: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Let's think step-by-step: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+
+ Q: Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+A: Let's think step-by-step: 
+	chain-of-thought + 'Let's think step-by-step' Response:
+
+Bob scored 3 points during the first 3 quarters, so he scored 3 + 3 + 3 = 9 points in total. During the last quarter, Bob scored 4 more points. To find the total number of points he scored, you can add 9 and 4: 9 + 4 = 13.
+
+So, Bob scored 13 points during the game.
+
+	Question:
+
+Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.974 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+A: Let's think step-by-step: 
+	few-shot + 'Let's think step-by-step' Response:
+
+To solve this problem, we can use the following step-by-step approach:
+
+1. Calculate the total number of points Bob scored in the first three quarters:
+
+Bob scored 3 points in each of the first 3 quarters. Therefore, in total, he scored:
+3 \* 3 = 9 points
+
+1. Add the points scored during the last quarter:
+
+Bob scored 4 points during the last quarter. Adding these points to the previous total, we get:
+9 + 4 = 13 points
+
+1. State the final answer:
+
+Bob scored a total of 13 points during the basketball game.
+
+	Question:
+
+Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 4.338 seconds
+
+	Prompt:
+  Q: Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+A: Let's think step-by-step: 
+	zero-shot + 'Let's think step-by-step' Response:
+
+To find out how many points Bob scored during the game, you need to consider the points he scored in the first three quarters and the last quarter.
+
+First, Bob scored 3 points during each of the first 3 quarters, so in total, he scored 3 x 3 = 9 points in the first 3 quarters.
+
+Then, in the last quarter, Bob scored 4 points.
+
+To find the total points scored during the game, you need to add the points scored in the first 3 quarters and the last quarter:
+
+Total points = 9 points (from the first 3 quarters) + 4 points (from the last quarter) = 13 points
+
+So, Bob scored 13 points during the game.
+
+	Question:
+
+Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 0.324 seconds
+
+	Prompt:
+ Respond with only the answer using as short an answer as possible. Q: Bob scored 3 points during each of the first 3 quarters of his basketball game. During the last quarter Bob scored 4 points. How many points did Bob score during the game?
+A: The answer is: 
+	zero-shot + 'The answer is:' Response:
+
+Bob scored 15 points during the game.
+
+	Question:
+
+I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 4.014 seconds
+
+	Prompt:
+  Q: I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+A: 
+	zero-shot Response:
+
+To find out how much money you spent on concert tickets, you need to subtract the total amount you earned and the remaining amount from the initial amount you had.
+
+Initial amount = $33
+Earned amount = $12
+Remaining amount = $3
+
+Total amount spent on concert tickets = Initial amount - Earned amount - Remaining amount
+Total amount spent on concert tickets = $33 - $12 - $3
+
+First, subtract $12 from $33:
+$33 - $12 = $21
+
+Then, subtract $3 from $21:
+$21 - $3 = $18
+
+You spent $18 on concert tickets.
+
+	Question:
+
+I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.975 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+A: 
+	few-shot Response:
+
+To find out how much money Olivia spent on concert tickets, you need to subtract her remaining money and the money she earned from the initial amount she had.
+
+Let x be the amount Olivia spent on concert tickets.
+
+The equation to represent the problem would be:
+
+33 + 12 - x = 3
+
+Now, let's solve for x:
+
+45 - x = 3
+
+Subtract 45 from both sides:
+
+-x = -42
+
+Multiply both sides by -1:
+
+x = 42
+
+So, Olivia spent $42 on concert tickets.
+
+The answer is: 42.
+
+	Question:
+
+I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.884 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+ Q: I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+A: 
+	chain-of-thought Response:
+
+A: You started with $33, earned $12, and ended up with $3. To find out how much you spent on concert tickets, you need to subtract the starting amount ($33) from your earnings ($33 + $12) and then subtract the remaining amount ($3) from this result.
+
+Calculations:
+
+1. Total earnings: 33 + 12 = 45
+2. Money spent on concert tickets: 45 - 3 = 42
+
+So, you spent $42 on concert tickets. The answer is 42.
+
+	Question:
+
+I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 4.003 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: Let's think step-by-step: There are 15 trees originally. Then there were 21 trees after some more were planted. So there must have been 21 - 15 = 6. The answer is 6.
+
+Q: Let's think step-by-step: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: Let's think step-by-step: There are originally 3 cars. 2 more cars arrive. 3 + 2 = 5. The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: Let's think step-by-step: Originally, Leah had 32 chocolates. Her sister had 42. So in total they had 32 + 42 = 74. After eating 35, they had 74 - 35 = 39. The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: Let's think step-by-step: Jason started with 20 lollipops. Then he had 12 after giving some to Denny. So he gave Denny 20 - 12 = 8. The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: Let's think step-by-step: Shawn started with 5 toys. If he got 2 toys each from his mom and dad, then that is 4 more toys. 5 + 4 = 9. The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: Let's think step-by-step: There were originally 9 computers. For each of 4 days, 5 more computers were added. So 5 * 4 = 20 computers were added. 9 + 20 is 29. The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: Let's think step-by-step: Michael started with 58 golf balls. After losing 23 on tuesday, he had 58 - 23 = 35. After losing 2 more, he had 35 - 2 = 33 golf balls. The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: Let's think step-by-step: Olivia had 23 dollars. 5 bagels for 3 dollars each will be 5 x 3 = 15 dollars. So she has 23 - 15 dollars left. 23 - 15 is 8. The answer is 8.
+
+Please solve the following problem:
+
+ Q: I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+A: Let's think step-by-step: 
+	chain-of-thought + 'Let's think step-by-step' Response:
+
+You had $33. Then you earned $12. The total money you had after earning was $33 + $12 = $45. After spending some money for concert tickets, you had $3 remaining. So, you spent $45 - $3 = $42 on concert tickets.
+
+The answer is you spent $42 on concert tickets.
+
+This problem is an excellent example of the application of the "change" strategy in problem solving. It involves understanding the change in the person's money, and applying the concepts of addition and subtraction to calculate the amount spent on concert tickets.
+
+	Question:
+
+I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 6.527 seconds
+
+	Prompt:
+ Problem solution examples:
+
+Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
+will be 21 trees. How many trees did the grove workers plant today?
+
+A: The answer is 6.
+
+Q: If there are 3 cars in the parking lot and 2 more cars arrive, how many cars are in the parking lot?
+
+A: The answer is 5.
+
+Q: Leah had 32 chocolates and her sister had 42. If they ate 35, how many pieces do they have left in total?
+
+A: The answer is 39.
+
+Q: Jason had 20 lollipops. He gave Denny some lollipops. Now Jason has 12 lollipops. How many lollipops did
+Jason give to Denny?
+
+A: The answer is 8.
+
+Q: Shawn has five toys. For Christmas, he got two toys each from his mom and dad. How many toys does he have now?
+
+A: The answer is 9.
+
+Q: There were nine computers in the server room. Five more computers were installed each day, from monday to thursday. How many computers are now in the server room?
+
+A: The answer is 29.
+
+Q: Michael had 58 golf balls. On tuesday, he lost 23 golf balls. On wednesday, he lost 2 more. How many golf balls did he have at the end of wednesday?
+
+A: The answer is 33.
+
+Q: Olivia has $23. She bought five bagels for $3 each. How much money does she have left?
+
+A: The answer is 8.
+
+Please solve the following problem:
+ Q: I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+A: Let's think step-by-step: 
+	few-shot + 'Let's think step-by-step' Response:
+
+To solve the problem, you need to follow these steps:
+
+1. You had $33 initially.
+2. You earned $12 after walking dogs.
+3. After spending some money on concert tickets, you have $3 left.
+
+To find out how much you spent on concert tickets, you need to subtract the initial amount and the amount earned from the remaining amount.
+
+1. Let's use algebra to solve this problem:
+Let x be the amount spent on concert tickets.
+$$33 + 12 - x = 3$$
+
+Now, let's solve for x:
+
+1. Add 33 and 12 to both sides:
+
+$$45 - x = 3$$
+
+1. Add x to both sides, and then subtract 45 from both sides:
+
+$$3 = -x$$
+
+1. Reverse the sign on both sides, so the negative sign becomes positive:
+
+$$x = 3$$
+
+So, you spent $3 on concert tickets.
+
+Answer: The answer is 3.
+
+	Question:
+
+I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 3.363 seconds
+
+	Prompt:
+  Q: I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+A: Let's think step-by-step: 
+	zero-shot + 'Let's think step-by-step' Response:
+
+1. You had $33 initially.
+2. You earned $12 by walking dogs. So, your current amount is $33 + $12 = $45.
+3. After spending money for concert tickets, you have $3 remaining.
+4. To find out how much you spent on concert tickets, you can subtract the remaining amount from your current amount.
+5. The amount spent on concert tickets is $45 (current amount) - $3 (remaining amount) = $42.
+
+You spent $42 on concert tickets.
+
+	Question:
+
+I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+
+generation with SakanaAI/DiscoPOP-zephyr-7b-gemma on cuda:0 w/ torch.bfloat16 in 0.297 seconds
+
+	Prompt:
+ Respond with only the answer using as short an answer as possible. Q: I had $33. Then I earned $12 walking dogs. After I spent some money for concert tickets, I have $3 remaining. How much money did I spend on concert tickets?
+A: The answer is: 
+	zero-shot + 'The answer is:' Response:
+
+You spent $20 on concert tickets.
