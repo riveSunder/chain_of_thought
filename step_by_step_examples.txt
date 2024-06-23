@@ -1,3 +1,5 @@
+Problem solution examples:
+
 Q: There are 15 trees in the grove. Grove workers will plant trees in the grove today. After they are done, there
 will be 21 trees. How many trees did the grove workers plant today?
 
@@ -32,4 +34,4 @@ Q: Olivia has $23. She bought five bagels for $3 each. How much money does she h
 
 A: The answer is 8.
 
-
+Please solve the following problem:
